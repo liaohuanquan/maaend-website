@@ -20,9 +20,8 @@ export default function About() {
               {t("about.architectureLabel")}
             </span>
             <h2 className="font-heading mb-8 text-5xl leading-tight font-bold text-black md:text-6xl dark:text-white">
-              {t("about.title1")} <br />
               <span className="bg-gradient-to-r from-black to-black/40 bg-clip-text text-transparent dark:from-white dark:to-white/40">
-                {t("about.title2")}
+                {t("about.title")}
               </span>
             </h2>
 

@@ -69,10 +69,9 @@
   },
   "about": {
     "architectureLabel": "Architecture",
-    "title1": "AI-FIRST",
-    "title2": "AUTOMATION SYSTEM",
-    "paragraph1": "MaaEnd is more than a simple script. Built on MaaFramework’s “black-box automation” capabilities, it forms a closed loop of screenshot capture → visual recognition → branching decisions → action execution. Without reading any in-game/internal data, it hands repetitive tasks over to the program.",
-    "paragraph2": "Whether you’re on PC or Android/emulators, MaaEnd runs tasks with the same logic to minimize platform-specific hassle. With auto-updates and continuous iteration, you can spend your time in the game—not in configuration.",
+    "title": "AI VISUAL AUTOMATION",
+    "paragraph1": "More than a script, MaaEnd is an AI-driven automation core. Built on MaaFramework’s black-box architecture, it uses a [Capture → Recognize → Decide → Execute] visual loop to provide human-like intelligence with a non-invasive, memory-safe approach.",
+    "paragraph2": "From solving complex puzzles instantly and intelligently filtering essence stats to providing real-time early-game assistance, MaaEnd is dedicated to handing repetitive labor over to AI. Operating with high efficiency across both PC and mobile, it lets you leave tedious configuration behind and return to the pure joy of strategy and exploration.",
     "stats": {
       "githubStars": "GitHub Stars",
       "dailyUsers": "Daily Users",
