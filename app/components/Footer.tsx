@@ -5,9 +5,9 @@ import { useTranslation } from "react-i18next";
 import { GITHUB_URLS } from "../constants";
 
 // QQ 群号和链接常量
-const USER_QQ_GROUP = "1082597011";
+const USER_QQ_GROUP = "1062010346";
 const DEV_QQ_GROUP = "1072587329";
-const USER_QQ_GROUP_LINK = "https://qm.qq.com/q/9IMcuQ55ny";
+const USER_QQ_GROUP_LINK = "https://qm.qq.com/q/fBcka1zWfu";
 const DEV_QQ_GROUP_LINK = "https://qm.qq.com/q/EyirQpBiW4";
 
 export default function Footer() {
