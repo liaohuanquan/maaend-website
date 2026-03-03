@@ -13,7 +13,7 @@ import {
   Download,
   Loader2,
   Monitor,
-  Shield,
+  Sparkles,
   X,
 } from "lucide-react";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
@@ -277,17 +277,14 @@ export default function Hero() {
                   alt="MaaEnd Logo"
                   width={512}
                   height={512}
-                  className="h-28 w-28 object-contain sm:h-36 sm:w-36 md:h-44 md:w-44 lg:h-56 lg:w-56"
+                  className="h-32 w-32 object-contain sm:h-40 sm:w-40 md:h-48 md:w-48 lg:h-60 lg:w-60"
                   priority
                 />
               </motion.div>
 
-              <div className="flex flex-col items-center text-center leading-[0.95] tracking-tight select-none md:items-start md:text-left">
-                <span className="block bg-linear-to-r from-[#d4a017] via-[#c49102] to-black bg-clip-text text-[2.5rem] font-black text-transparent md:text-[3.5rem] lg:text-[5rem] xl:text-[5.5rem] dark:from-[#FFD000] dark:via-[#FFD000] dark:to-white">
+              <div className="flex flex-col items-center text-center tracking-tight select-none md:items-start md:text-left">
+                <span className="inline-block origin-center scale-y-125 bg-linear-to-r from-[#d4a017] via-[#c49102] to-black bg-clip-text text-[2.9rem] leading-none font-black text-transparent md:text-[4rem] lg:text-[5.6rem] xl:text-[6.2rem] dark:from-[#FFD000] dark:via-[#FFD000] dark:to-white">
                   {t("hero.title")}
-                </span>
-                <span className="mt-1 hidden text-xl font-medium tracking-widest text-zinc-500 uppercase md:block dark:text-zinc-400">
-                  {t("hero.subtitle")}
                 </span>
                 <span className="mt-4 block font-mono text-[2rem] tracking-wider text-[#008fa6] sm:text-[2.6rem] md:text-[3rem] lg:text-[4.5rem] dark:text-[#00F0FF] dark:drop-shadow-[0_0_15px_rgba(0,240,255,0.4)]">
                   {t("hero.description")}
@@ -307,7 +304,7 @@ export default function Hero() {
             className="mb-16 flex max-w-xl items-start justify-center gap-4"
           >
             <div className="mt-1 rounded-full border border-black/5 bg-black/5 p-2 text-[#008fa6] dark:border-white/5 dark:bg-white/5 dark:text-[#00F0FF]">
-              <Shield size={18} />
+              <Sparkles size={18} className="stroke-[2.2]" />
             </div>
             <p className="text-lg leading-relaxed font-light text-black/80 dark:text-white/70">
               {t("hero.tagline")}
