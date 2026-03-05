@@ -12,7 +12,7 @@
     "neuralOnline": "NEURAL_NETWORK_ONLINE",
     "title": "MaaEnd",
     "description": "Endfield Assistant",
-    "tagline": "\"Arknights: Endfield\" Automated Assistant Powered by Visual AI",
+    "tagline": "\"Arknights: Endfield\" Automated Tool Powered by Visual AI",
     "systemReady": "SYSTEM_READY",
     "initCore": "DOWNLOAD",
     "downloadFor": "Download for",
