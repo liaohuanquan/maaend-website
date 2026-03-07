@@ -106,7 +106,7 @@ export default function Footer() {
           <h4 className="mb-4 font-mono text-black dark:text-white">
             {t("footer.friendLinks")}
           </h4>
-          <ul className="flex flex-wrap gap-x-4 gap-y-2 text-sm text-black/80 dark:text-white/70">
+          <ul className="inline-grid grid-flow-col grid-rows-3 gap-x-2 gap-y-2 text-sm text-black/80 dark:text-white/70">
             {FRIEND_LINKS.map((friend) => (
               <li key={friend.id} className="w-40">
                 <a
