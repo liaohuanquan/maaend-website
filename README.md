@@ -16,7 +16,7 @@
     <a href="https://github.com/MaaEnd/MaaEnd/stargazers">
       <img src="https://img.shields.io/github/stars/MaaEnd/MaaEnd?style=flat-square" alt="Stars" />
     </a>
-    <a href="https://github.com/MaaEnd/MaaEnd/blob/main/LICENSE">
+    <a href="https://github.com/MaaEnd/MaaEnd/blob/v2/LICENSE">
       <img src="https://img.shields.io/github/license/MaaEnd/MaaEnd?style=flat-square" alt="License" />
     </a>
   </p>
