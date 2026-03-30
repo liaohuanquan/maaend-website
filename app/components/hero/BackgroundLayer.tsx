@@ -35,7 +35,7 @@ export default function BackgroundLayer() {
 
       <div className="absolute top-12 right-12 flex flex-col items-end gap-1 sm:top-24 sm:right-8">
         <div className="font-mono text-[10px] tracking-widest text-black/40 dark:text-white/30">
-          ID: MaaEnd-V1-RELEASE
+          ID: MaaEnd-V2-RELEASE
         </div>
         <div className="flex justify-end gap-1 opacity-50">
           <div className="h-px w-2 bg-black/40 dark:bg-white/40" />
