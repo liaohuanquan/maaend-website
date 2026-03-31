@@ -70,4 +70,11 @@ export const FRIEND_LINKS: FriendLink[] = [
     iconSrc: "/friend/endfield-terminal.svg",
     iconAlt: "终末地-协议终端",
   },
+  {
+    id: "opendfieldmap",
+    name: "终末地地图集",
+    href: "https://opendfieldmap.cn/",
+    iconSrc: "/friend/opendfieldmap.svg",
+    iconAlt: "Open Endfield Map",
+  },
 ];
