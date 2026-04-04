@@ -12,8 +12,8 @@ export const GITHUB_URLS = {
 
 // QQ 群号和链接
 export const QQ_GROUPS = {
-  USER_GROUP: "755643532",
-  USER_GROUP_LINK: "https://qm.qq.com/q/o4HDYMHUGc",
+  USER_GROUP: "1097256935",
+  USER_GROUP_LINK: "https://qm.qq.com/q/2AK5MoVfOQ",
   DEV_GROUP: "1072587329",
   DEV_GROUP_LINK: "https://qm.qq.com/q/EyirQpBiW4",
 } as const;
