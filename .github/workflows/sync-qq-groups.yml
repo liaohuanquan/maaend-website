@@ -1,8 +1,6 @@
 name: Sync QQ Groups
 
 on:
-  repository_dispatch:
-    types: [sync-qq-groups]
   workflow_dispatch:
 
 permissions:
