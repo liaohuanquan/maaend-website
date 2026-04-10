@@ -37,8 +37,8 @@ export default function Footer() {
         </motion.div>
       </div>
 
-      <div className="container mx-auto grid grid-cols-1 gap-12 px-6 md:grid-cols-6">
-        <div className="col-span-1 md:col-span-2">
+      <div className="container mx-auto grid grid-cols-1 gap-12 px-6 sm:grid-cols-2 md:grid-cols-6">
+        <div className="col-span-1 sm:col-span-2 md:col-span-2">
           <h3 className="font-heading mb-4 text-2xl text-black dark:text-white">
             MaaEnd
           </h3>
@@ -104,13 +104,13 @@ export default function Footer() {
             </li>
           </ul>
         </div>
-        <div className="col-span-1 md:col-span-2">
+        <div className="col-span-1 sm:col-span-2 md:col-span-2">
           <h4 className="mb-4 font-mono text-black dark:text-white">
             {t("footer.friendLinks")}
           </h4>
-          <ul className="inline-grid grid-flow-col grid-rows-3 gap-x-2 gap-y-2 text-sm text-black/80 dark:text-white/70">
+          <ul className="grid grid-cols-2 gap-x-2 gap-y-2 text-sm text-black/80 sm:inline-grid sm:grid-flow-col sm:grid-cols-none sm:grid-rows-3 dark:text-white/70">
             {FRIEND_LINKS.map((friend) => (
-              <li key={friend.id} className="w-40">
+              <li key={friend.id} className="min-w-0 sm:w-40">
                 <a
                   href={friend.href}
                   target="_blank"
