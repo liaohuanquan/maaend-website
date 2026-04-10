@@ -69,7 +69,7 @@ export default function Features() {
           size={32}
         />
       ),
-      col: "md:col-span-2",
+      col: "md:col-span-1",
     },
     {
       title: t("features.items.dailyRewards.title"),
@@ -78,7 +78,7 @@ export default function Features() {
       icon: (
         <Calendar className="text-[#c49102] dark:text-[#FFE600]" size={32} />
       ),
-      col: "md:col-span-1",
+      col: "md:col-span-2",
     },
   ];
   return (
